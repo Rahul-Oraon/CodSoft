@@ -1,0 +1,161 @@
+header {
+    background: linear-gradient(90deg, rgb(219, 130, 13), rgb(221, 32, 136));
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    color: #1c2626;
+    margin-left: 41px;
+}
+
+header nav {
+    display: inline-block;
+    margin-left: 900px;
+}
+
+header nav a {
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.welcome {
+    background: url("/background.jpg") no-repeat;
+    background-size: auto;
+    height: 80vh;
+    background-size: cover;
+    margin-top: -37px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.box {
+    width: 219px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 607px;
+    margin-top: 100px;
+}
+
+.box button {
+    border-radius: 40px;
+    height: 64px;
+    font-size: 20px;
+    background: rgba(14, 203, 27, 0.988);
+    color: white;
+}
+
+.business {
+    background: linear-gradient(90deg, rgb(219, 130, 13), rgb(221, 32, 136));
+    width: 98.3vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9px;
+    color: white;
+}
+
+.one {
+    text-align: center;
+    padding-left: 25px;
+}
+
+.two {
+    text-align: center;
+}
+
+.three {
+    text-align: center;
+    padding-right: 25px;
+}
+
+.about {
+    border: 2px solid black;
+    display: flex;
+    background: rgba(244, 238, 238, 0.37);
+}
+
+.about1 {
+    margin: 70px 250px 70px 70px;
+}
+
+.about1 h2 {
+    background: linear-gradient(90deg, rgb(219, 130, 13), rgb(221, 32, 136));
+    margin-right: 300px;
+    margin-left: 130px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.about2 {
+    margin: 0px 210px 19px 30px;
+    background: red url("/about.jpg");
+    width: 45vw;
+    background-size: cover;
+    border-radius: 40px;
+}
+
+.service {
+    background: grey;
+    margin-top: -20px;
+    height: 40vh;
+    width: 98.8vw;
+    border: 2px solid black;
+}
+
+.service h2 {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.service h2 {
+    background: linear-gradient(90deg, rgb(219, 130, 13), rgb(221, 32, 136));
+    width: 15vw;
+    padding: 5px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+}
+
+.service1 {
+    background: url("/ux.jpg") no-repeat;
+    width: 25vw;
+    height: 30vh;
+    text-align: center;
+    background-size: cover;
+}
+
+.service h3 {
+    background: black;
+    margin-top: 0px;
+    height: 36px;
+    font-size: 25px;
+    color: white;
+}
+
+.service2 {
+    background: url("/web.jpg") no-repeat;
+    width: 25vw;
+    margin: 0px 80px;
+    text-align: center;
+    background-size: cover;
+}
+
+.service3 {
+    background: url("/uiux.jpg") no-repeat;
+    width: 25vw;
+    text-align: center;
+    background-size: cover;
+}
+
+footer {
+    background: linear-gradient(90deg, rgb(219, 130, 13), rgb(221, 32,136));
+}

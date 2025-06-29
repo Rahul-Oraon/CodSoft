@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #26231f, #151525);
+    color: #fff;
+    line-height: 1.6;
+}
+
+.portfolio {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    font-size: 32px;
+    background: linear-gradient(90deg, #2a472d, #382c4c);
+    padding: 10px 20px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.text-content {
+    flex: 1;
+    min-width: 280px;
+}
+
+.image-content img {
+    height: 300px;
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px #17171a;
+}
+
+.contact h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #ccc;
+    
+}
+
+.contact p {
+    margin: 6px 0;
+}
+
+.contact span {
+    margin-right: 10px;
+    color: #f6f4f9;
+}
+
+.info {
+    background: linear-gradient(145deg, #2a472d, #382c4c);
+    padding: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    min-width: 260px;
+}
+
+.column h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.column p,
+.column li {
+    color: #eee;
+    margin-bottom: 8px;
+}
+
+.tech-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
